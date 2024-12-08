@@ -1,8 +1,4 @@
-<a id="installation"></a>  
-<img src="Source/assets/Installation.gif" width="200"/>
----
-
-Basic command to install, configure and run QEMU/KVM using virt-manager
+# Basic command to install, configure and run QEMU/KVM using virt-manager
 
 > [!IMPORTANT]
 > Commands are based on arch-linux, however packages should be same for other distros.
