@@ -1,11 +1,11 @@
 # Basic command to install, configure and run QEMU/KVM using virt-manager
 
 > [!IMPORTANT]
-> Commands are based on arch-linux, however packages should be same for other distros.
-> Make sure you also have a GUI environment setup.
+> Commands are based on arch-linux, however packages should be the same for other distros.
+> Make sure you have a GUI environment setup.
 
 > [!CAUTION]
-> Make sure you have a internet connection and a user with sudo perms.
+> Make sure you have an internet connection and an user with sudo perms.
 
 To install, execute the following commands:
 
@@ -22,6 +22,10 @@ sudo systemctl enable --now libvirtd
 # Give permissions to the libvirt group, replace the {user_name} with your current user:
 ```shell
 sudo usermod -aG libvirt {user_name}
+```
+Example:
+```shell
+sudo usermod -aG libvirt Steve
 ```
 
 # Restart your system or run this command
